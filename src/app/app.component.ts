@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'GrowtonAngularFormsApp';
+
+  evtClick(locuserDetails : any){
+
+    console.log(locuserDetails); // vvvvvvvvvvvvvvvvvvvvvvvvvvvvvIMP
+
+    // console.log(locuserDetails.controls);
+    // console.log(locuserDetails.controls['userName'].value);
+    // console.log(locuserDetails.controls['userEmail'].value);
+    // console.log(locuserDetails.controls['userComments'].value);
+
+    
+
+  }
 }
